@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.ncd
+OUTFILE=/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.bit
+FAMILY=Spartan6
+PART=xc6slx9-2csg324
+WORKINGDIR=/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule
+LICENSE=WebPack
+USER_INFO=211234267_0_0_814

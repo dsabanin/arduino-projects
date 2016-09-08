@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule_isim_beh.exe" -prj "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule_beh.prj" "work.myModule" "work.glbl" 

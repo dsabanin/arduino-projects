@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<DeviceUsageSummary rev="14">
+<DesignStatistics TimeStamp="Wed Sep  7 21:52:46 2016"><group name="NetStatistics">
+<item name="NumNets_Active" rev="13">
+<attrib name="value" value="8"/></item>
+<item name="NumNets_Vcc" rev="13">
+<attrib name="value" value="1"/></item>
+<item name="NumNodesOfType_Vcc_GENERIC" rev="13">
+<attrib name="value" value="8"/></item>
+<item name="NumNodesOfType_Vcc_HVCCOUT" rev="13">
+<attrib name="value" value="4"/></item>
+<item name="NumNodesOfType_Vcc_IOBIN2OUT" rev="13">
+<attrib name="value" value="8"/></item>
+<item name="NumNodesOfType_Vcc_IOBOUTPUT" rev="13">
+<attrib name="value" value="8"/></item>
+<item name="NumNodesOfType_Vcc_PADINPUT" rev="13">
+<attrib name="value" value="8"/></item>
+<item name="NumNodesOfType_Vcc_PINFEED" rev="13">
+<attrib name="value" value="8"/></item>
+</group>
+<group name="SiteStatistics">
+<item name="IOB-IOBM" rev="13">
+<attrib name="value" value="4"/></item>
+<item name="IOB-IOBS" rev="13">
+<attrib name="value" value="4"/></item>
+</group>
+<group name="MiscellaneousStatistics">
+<item name="AGG_BONDED_IO" rev="14">
+<attrib name="value" value="8"/></item>
+<item name="AGG_IO" rev="14">
+<attrib name="value" value="8"/></item>
+<item name="AGG_LOCED_IO" rev="14">
+<attrib name="value" value="8"/></item>
+<item name="NUM_BONDED_IOB" rev="14">
+<attrib name="value" value="8"/></item>
+<item name="NUM_LOCED_IOB" rev="14">
+<attrib name="value" value="8"/></item>
+</group>
+</DesignStatistics>
+<ReportConfigData TimeStamp="Wed Sep  7 21:48:31 2016"><group name="IOB_OUTBUF">
+<item name="DRIVEATTRBOX" rev="13">
+<attrib name="8" value="8"/></item>
+<item name="SLEW" rev="13">
+<attrib name="FAST" value="8"/></item>
+<item name="SUSPEND" rev="13">
+<attrib name="3STATE" value="8"/></item>
+</group>
+</ReportConfigData>
+<ReportPinData TimeStamp="Wed Sep  7 21:48:31 2016"><group name="IOB_OUTBUF">
+<item name="IN" rev="13">
+<attrib name="value" value="8"/></item>
+<item name="OUT" rev="13">
+<attrib name="value" value="8"/></item>
+</group>
+<group name="PAD">
+<item name="PAD" rev="13">
+<attrib name="value" value="8"/></item>
+</group>
+<group name="IOB">
+<item name="O" rev="13">
+<attrib name="value" value="8"/></item>
+<item name="PAD" rev="13">
+<attrib name="value" value="8"/></item>
+</group>
+</ReportPinData>
+<CmdHistory>
+</CmdHistory>
+</DeviceUsageSummary>

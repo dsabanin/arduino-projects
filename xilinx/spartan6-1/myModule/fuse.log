@@ -1,0 +1,20 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule_isim_beh.exe" -prj "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule_beh.prj" "work.myModule" "work.glbl" 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 94668 KB
+Fuse CPU Usage: 860 ms
+Compiling module myModule
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 2 Verilog Units
+Built simulation executable /home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule_isim_beh.exe
+Fuse Memory Usage: 1179128 KB
+Fuse CPU Usage: 860 ms
+GCC CPU Usage: 50 ms
