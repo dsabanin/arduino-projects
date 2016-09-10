@@ -2,18 +2,18 @@
 #define DEBUG_LED 13
 #define HEAD_LED 12
 
-#define UP_SIGNAL 0x20DFA25D
-#define DOWN_SIGNAL 0x20DF629D
-#define LEFT_SIGNAL 0x20DFE21D
-#define RIGHT_SIGNAL 0x20DF12ED
+#define UP_SIGNAL     0x20DFA25D
+#define DOWN_SIGNAL   0x20DF629D
+#define LEFT_SIGNAL   0x20DFE21D
+#define RIGHT_SIGNAL  0x20DF12ED
+#define VUP_SIGNAL    0x20DF40BF
+#define VDOWN_SIGNAL  0x20DFC03F
+#define CUP_SIGNAL    0x20DF00FF
+#define CDOWN_SIGNAL  0x20DF807F
+#define MUTE_SIGNAL   0x20DF906F
+#define HEAD_SIGNAL   0x20DF58A7
+#define VISIO_SIGNAL  0x20DFB44B
 #define REPEAT_SIGNAL 0xffffffff
-#define VUP_SIGNAL 0x20DF40BF
-#define VDOWN_SIGNAL 0x20DFC03F
-#define CUP_SIGNAL 0x20DF00FF
-#define CDOWN_SIGNAL 0x20DF807F
-#define MUTE_SIGNAL 0x20DF906F
-#define HEAD_SIGNAL 0x20DF58A7
-#define VISIO_SIGNAL 0x20DFB44B
 #define MOVE_STEP 200
 
 typedef enum {UP, DOWN} direction;
@@ -22,13 +22,14 @@ struct motor {
   int enable;
   int out1;
   int out2;
+  int fullSpin;
 };
 
-motor m1 = {A0, A1, A2};
-motor m2 = {A3, A4, A5};
-motor m3 = {2, 3, 4};
-motor m4 = {5, 6, 7};
-motor m5 = {8, 9, 10};
+motor m1 = {A0, A1, A2, 1200};
+motor m2 = {A3, A4, A5, 4800};
+motor m3 = {2, 3, 4, 10000};
+motor m4 = {5, 6, 7, 4800};
+motor m5 = {8, 9, 10, 4800};
 int headLed = LOW;
 
 IRrecv irrecv(11);
@@ -52,6 +53,24 @@ void setup() {
   Serial.begin(9600);
   pinMode(DEBUG_LED, OUTPUT);
   irrecv.enableIRIn();
+  motorsIntoPosition();
+}
+
+void motorsIntoPosition() {
+//  fullCycleMove(m1);
+//  fullCycleMove(m2);
+//  fullCycleMove(m3);
+  fullCycleMove(m4);
+//  fullCycleMove(m5);  
+}
+
+void fullCycleMove(motor m) {
+  fullMove(m, UP);
+  fullMove(m, DOWN);
+}
+
+void fullMove(motor m, direction dir) {
+  simpleMove(m, dir, m.fullSpin);
 }
 
 void simpleMove(motor m, direction dir , int time) {
@@ -111,6 +130,7 @@ void loop() {
   digitalWrite(HEAD_LED, headLed);
 //  digitalWrite(DEBUG_LED, HIGH);
   if (irrecv.decode(&signals)) {
+    Serial.println("received IR signal:");
     Serial.println(signals.value, HEX);
     if(previous_signal > 0 && signals.value == REPEAT_SIGNAL) {
       Serial.println(previous_signal, HEX);

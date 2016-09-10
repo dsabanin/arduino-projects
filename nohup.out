@@ -1,0 +1,695 @@
+Picked up JAVA_TOOL_OPTIONS: 
+
+
+
+
+
+
+
+
+
+
+
+Sketch uses 8,740 bytes (27%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 449 bytes (21%) of dynamic memory, leaving 1,599 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 8,740 bytes (27%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 449 bytes (21%) of dynamic memory, leaving 1,599 bytes for local variables. Maximum is 2,048 bytes.
+
+
+
+
+
+
+
+
+
+
+
+Sketch uses 8,772 bytes (27%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 449 bytes (21%) of dynamic memory, leaving 1,599 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 8,772 bytes (27%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 449 bytes (21%) of dynamic memory, leaving 1,599 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 8,838 bytes (27%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 449 bytes (21%) of dynamic memory, leaving 1,599 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 8,842 bytes (27%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 449 bytes (21%) of dynamic memory, leaving 1,599 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 8,842 bytes (27%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 449 bytes (21%) of dynamic memory, leaving 1,599 bytes for local variables. Maximum is 2,048 bytes.
+
+
+
+
+
+
+
+
+
+
+
+Sketch uses 8,842 bytes (27%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 449 bytes (21%) of dynamic memory, leaving 1,599 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 8,842 bytes (27%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 449 bytes (21%) of dynamic memory, leaving 1,599 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 8,842 bytes (27%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 449 bytes (21%) of dynamic memory, leaving 1,599 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 9,132 bytes (28%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 459 bytes (22%) of dynamic memory, leaving 1,589 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 9,026 bytes (27%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 459 bytes (22%) of dynamic memory, leaving 1,589 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 9,026 bytes (27%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 459 bytes (22%) of dynamic memory, leaving 1,589 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 9,026 bytes (27%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 459 bytes (22%) of dynamic memory, leaving 1,589 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 9,026 bytes (27%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 459 bytes (22%) of dynamic memory, leaving 1,589 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 9,026 bytes (27%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 459 bytes (22%) of dynamic memory, leaving 1,589 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 9,026 bytes (27%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 459 bytes (22%) of dynamic memory, leaving 1,589 bytes for local variables. Maximum is 2,048 bytes.
+Picked up JAVA_TOOL_OPTIONS: 
+
+
+
+
+
+
+
+
+
+
+
+Sketch uses 620 bytes (1%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 9 bytes (0%) of dynamic memory, leaving 2,039 bytes for local variables. Maximum is 2,048 bytes.
+
+
+
+
+
+
+
+
+
+
+
+Sketch uses 1,916 bytes (5%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 186 bytes (9%) of dynamic memory, leaving 1,862 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 1,916 bytes (5%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 186 bytes (9%) of dynamic memory, leaving 1,862 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 2,028 bytes (6%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 186 bytes (9%) of dynamic memory, leaving 1,862 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 2,052 bytes (6%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 188 bytes (9%) of dynamic memory, leaving 1,860 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 2,064 bytes (6%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 192 bytes (9%) of dynamic memory, leaving 1,856 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 2,086 bytes (6%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 190 bytes (9%) of dynamic memory, leaving 1,858 bytes for local variables. Maximum is 2,048 bytes.
+avrdude: ser_open(): can't open device "/dev/ttyACM0": Device or resource busy
+An error occurred while uploading the sketch
+ioctl("TIOCMGET"): Inappropriate ioctl for device
+
+Sketch uses 2,086 bytes (6%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 190 bytes (9%) of dynamic memory, leaving 1,858 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 2,236 bytes (6%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 190 bytes (9%) of dynamic memory, leaving 1,858 bytes for local variables. Maximum is 2,048 bytes.
+avrdude: ser_open(): can't open device "/dev/ttyACM0": Device or resource busy
+ioctl("TIOCMGET"): Inappropriate ioctl for device
+Problem uploading to board.  See http://www.arduino.cc/en/Guide/Troubleshooting#upload for suggestions.
+
+Sketch uses 2,236 bytes (6%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 190 bytes (9%) of dynamic memory, leaving 1,858 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 1,638 bytes (5%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 55 bytes (2%) of dynamic memory, leaving 1,993 bytes for local variables. Maximum is 2,048 bytes.
+avrdude: ser_open(): can't open device "/dev/ttyACM0": No such file or directory
+Problem uploading to board.  See http://www.arduino.cc/en/Guide/Troubleshooting#upload for suggestions.
+ioctl("TIOCMGET"): Inappropriate ioctl for device
+Board at /dev/ttyACM0 is not available
+
+Sketch uses 1,638 bytes (5%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 55 bytes (2%) of dynamic memory, leaving 1,993 bytes for local variables. Maximum is 2,048 bytes.
+avrdude: ser_open(): can't open device "/dev/ttyACM0": No such file or directory
+ioctl("TIOCMGET"): Inappropriate ioctl for device
+Problem uploading to board.  See http://www.arduino.cc/en/Guide/Troubleshooting#upload for suggestions.
+
+Sketch uses 1,638 bytes (5%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 55 bytes (2%) of dynamic memory, leaving 1,993 bytes for local variables. Maximum is 2,048 bytes.
+avrdude: stk500_recv(): programmer is not responding
+avrdude: stk500_getsync() attempt 1 of 10: not in sync: resp=0x00
+avrdude: stk500_recv(): programmer is not responding
+avrdude: stk500_getsync() attempt 2 of 10: not in sync: resp=0x00
+avrdude: stk500_recv(): programmer is not responding
+avrdude: stk500_getsync() attempt 3 of 10: not in sync: resp=0x00
+
+Sketch uses 1,638 bytes (5%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 55 bytes (2%) of dynamic memory, leaving 1,993 bytes for local variables. Maximum is 2,048 bytes.
+Problem uploading to board.  See http://www.arduino.cc/en/Guide/Troubleshooting#upload for suggestions.
+
+Sketch uses 1,638 bytes (5%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 55 bytes (2%) of dynamic memory, leaving 1,993 bytes for local variables. Maximum is 2,048 bytes.
+
+
+
+
+
+
+
+
+
+
+
+Sketch uses 1,638 bytes (5%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 55 bytes (2%) of dynamic memory, leaving 1,993 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 1,638 bytes (5%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 55 bytes (2%) of dynamic memory, leaving 1,993 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 1,638 bytes (5%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 55 bytes (2%) of dynamic memory, leaving 1,993 bytes for local variables. Maximum is 2,048 bytes.
+avrdude: ser_open(): can't open device "/dev/ttyACM1": No such file or directory
+ioctl("TIOCMGET"): Inappropriate ioctl for device
+Problem uploading to board.  See http://www.arduino.cc/en/Guide/Troubleshooting#upload for suggestions.
+
+Sketch uses 1,638 bytes (5%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 55 bytes (2%) of dynamic memory, leaving 1,993 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 1,634 bytes (5%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 51 bytes (2%) of dynamic memory, leaving 1,997 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 1,636 bytes (5%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 53 bytes (2%) of dynamic memory, leaving 1,995 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 1,832 bytes (5%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 53 bytes (2%) of dynamic memory, leaving 1,995 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 1,864 bytes (5%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 53 bytes (2%) of dynamic memory, leaving 1,995 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 1,892 bytes (5%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 53 bytes (2%) of dynamic memory, leaving 1,995 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 1,910 bytes (5%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 53 bytes (2%) of dynamic memory, leaving 1,995 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 1,910 bytes (5%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 53 bytes (2%) of dynamic memory, leaving 1,995 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 1,940 bytes (6%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 53 bytes (2%) of dynamic memory, leaving 1,995 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 1,906 bytes (5%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 53 bytes (2%) of dynamic memory, leaving 1,995 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 1,906 bytes (5%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 53 bytes (2%) of dynamic memory, leaving 1,995 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 1,906 bytes (5%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 53 bytes (2%) of dynamic memory, leaving 1,995 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 1,906 bytes (5%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 53 bytes (2%) of dynamic memory, leaving 1,995 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 2,718 bytes (8%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 236 bytes (11%) of dynamic memory, leaving 1,812 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 2,730 bytes (8%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 236 bytes (11%) of dynamic memory, leaving 1,812 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 2,718 bytes (8%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 224 bytes (10%) of dynamic memory, leaving 1,824 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 2,718 bytes (8%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 224 bytes (10%) of dynamic memory, leaving 1,824 bytes for local variables. Maximum is 2,048 bytes.
+/home/dsabanin/Arduino/lcdtest1/lcdtest1.ino: In function 'void loop()':
+lcdtest1:21: error: expected primary-expression before ')' token
+       if (strlen(r) > 16)) {
+                          ^
+exit status 1
+expected primary-expression before ')' token
+
+Sketch uses 2,748 bytes (8%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 224 bytes (10%) of dynamic memory, leaving 1,824 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 2,756 bytes (8%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 224 bytes (10%) of dynamic memory, leaving 1,824 bytes for local variables. Maximum is 2,048 bytes.
+
+
+
+
+
+
+
+
+
+
+/home/dsabanin/Arduino/lcdtest1/lcdtest1.ino: In function 'void loop()':
+lcdtest1:19: error: cannot convert 'String' to 'char*' in assignment
+     r = Serial.readStringUntil("\n");
+       ^
+exit status 1
+cannot convert 'String' to 'char*' in assignment
+
+
+
+
+
+
+
+
+
+
+/home/dsabanin/Arduino/lcdtest1/lcdtest1.ino: In function 'void loop()':
+lcdtest1:20: error: cannot convert 'String' to 'const char*' for argument '1' to 'size_t strlen(const char*)'
+     if (strlen(r) > 16) {
+                 ^
+lcdtest1:21: error: cannot convert 'String' to 'const char*' for argument '1' to 'size_t strlen(const char*)'
+       lcd.write(strlen(r));
+                         ^
+lcdtest1:23: error: no matching function for call to 'LiquidCrystal::write(String&)'
+       lcd.write(r);
+                  ^
+/home/dsabanin/Arduino/lcdtest1/lcdtest1.ino:23:18: note: candidates are:
+In file included from /home/dsabanin/Arduino/lcdtest1/lcdtest1.ino:1:0:
+/home/dsabanin/Apps/arduino-1.6.10/libraries/LiquidCrystal/src/LiquidCrystal.h:83:18: note: virtual size_t LiquidCrystal::write(uint8_t)
+   virtual size_t write(uint8_t);
+                  ^
+/home/dsabanin/Apps/arduino-1.6.10/libraries/LiquidCrystal/src/LiquidCrystal.h:83:18: note:   no known conversion for argument 1 from 'String' to 'uint8_t {aka unsigned char}'
+In file included from /home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Stream.h:26:0,
+                 from /home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/HardwareSerial.h:29,
+                 from /home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Arduino.h:224,
+                 from sketch/lcdtest1.ino.cpp:1:
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:54:12: note: size_t Print::write(const char*, size_t)
+     size_t write(const char *buffer, size_t size) {
+            ^
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:54:12: note:   candidate expects 2 arguments, 1 provided
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:53:20: note: virtual size_t Print::write(const uint8_t*, size_t)
+     virtual size_t write(const uint8_t *buffer, size_t size);
+                    ^
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:53:20: note:   candidate expects 2 arguments, 1 provided
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:49:12: note: size_t Print::write(const char*)
+     size_t write(const char *str) {
+            ^
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:49:12: note:   no known conversion for argument 1 from 'String' to 'const char*'
+exit status 1
+cannot convert 'String' to 'const char*' for argument '1' to 'size_t strlen(const char*)'
+
+
+
+
+
+
+
+
+
+
+/home/dsabanin/Arduino/lcdtest1/lcdtest1.ino: In function 'void loop()':
+lcdtest1:20: error: 'class String' has no member named 'size'
+     if (r.size > 16) {
+           ^
+lcdtest1:21: error: cannot convert 'String' to 'const char*' for argument '1' to 'size_t strlen(const char*)'
+       lcd.write(strlen(r));
+                         ^
+lcdtest1:23: error: no matching function for call to 'LiquidCrystal::write(String&)'
+       lcd.write(r);
+                  ^
+/home/dsabanin/Arduino/lcdtest1/lcdtest1.ino:23:18: note: candidates are:
+In file included from /home/dsabanin/Arduino/lcdtest1/lcdtest1.ino:1:0:
+/home/dsabanin/Apps/arduino-1.6.10/libraries/LiquidCrystal/src/LiquidCrystal.h:83:18: note: virtual size_t LiquidCrystal::write(uint8_t)
+   virtual size_t write(uint8_t);
+                  ^
+/home/dsabanin/Apps/arduino-1.6.10/libraries/LiquidCrystal/src/LiquidCrystal.h:83:18: note:   no known conversion for argument 1 from 'String' to 'uint8_t {aka unsigned char}'
+In file included from /home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Stream.h:26:0,
+                 from /home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/HardwareSerial.h:29,
+                 from /home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Arduino.h:224,
+                 from sketch/lcdtest1.ino.cpp:1:
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:54:12: note: size_t Print::write(const char*, size_t)
+     size_t write(const char *buffer, size_t size) {
+            ^
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:54:12: note:   candidate expects 2 arguments, 1 provided
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:53:20: note: virtual size_t Print::write(const uint8_t*, size_t)
+     virtual size_t write(const uint8_t *buffer, size_t size);
+                    ^
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:53:20: note:   candidate expects 2 arguments, 1 provided
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:49:12: note: size_t Print::write(const char*)
+     size_t write(const char *str) {
+            ^
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:49:12: note:   no known conversion for argument 1 from 'String' to 'const char*'
+exit status 1
+'class String' has no member named 'size'
+
+
+
+
+
+
+
+
+
+
+/home/dsabanin/Arduino/lcdtest1/lcdtest1.ino: In function 'void loop()':
+lcdtest1:20: error: invalid use of member function (did you forget the '()' ?)
+     if (r.length > 16) {
+                    ^
+lcdtest1:21: error: cannot convert 'String' to 'const char*' for argument '1' to 'size_t strlen(const char*)'
+       lcd.write(strlen(r));
+                         ^
+lcdtest1:23: error: no matching function for call to 'LiquidCrystal::write(String&)'
+       lcd.write(r);
+                  ^
+/home/dsabanin/Arduino/lcdtest1/lcdtest1.ino:23:18: note: candidates are:
+In file included from /home/dsabanin/Arduino/lcdtest1/lcdtest1.ino:1:0:
+/home/dsabanin/Apps/arduino-1.6.10/libraries/LiquidCrystal/src/LiquidCrystal.h:83:18: note: virtual size_t LiquidCrystal::write(uint8_t)
+   virtual size_t write(uint8_t);
+                  ^
+/home/dsabanin/Apps/arduino-1.6.10/libraries/LiquidCrystal/src/LiquidCrystal.h:83:18: note:   no known conversion for argument 1 from 'String' to 'uint8_t {aka unsigned char}'
+In file included from /home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Stream.h:26:0,
+                 from /home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/HardwareSerial.h:29,
+                 from /home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Arduino.h:224,
+                 from sketch/lcdtest1.ino.cpp:1:
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:54:12: note: size_t Print::write(const char*, size_t)
+     size_t write(const char *buffer, size_t size) {
+            ^
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:54:12: note:   candidate expects 2 arguments, 1 provided
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:53:20: note: virtual size_t Print::write(const uint8_t*, size_t)
+     virtual size_t write(const uint8_t *buffer, size_t size);
+                    ^
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:53:20: note:   candidate expects 2 arguments, 1 provided
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:49:12: note: size_t Print::write(const char*)
+     size_t write(const char *str) {
+            ^
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:49:12: note:   no known conversion for argument 1 from 'String' to 'const char*'
+exit status 1
+invalid use of member function (did you forget the '()' ?)
+
+
+
+
+
+
+
+
+
+
+/home/dsabanin/Arduino/lcdtest1/lcdtest1.ino: In function 'void loop()':
+lcdtest1:23: error: no matching function for call to 'LiquidCrystal::write(String&)'
+       lcd.write(r);
+                  ^
+/home/dsabanin/Arduino/lcdtest1/lcdtest1.ino:23:18: note: candidates are:
+In file included from /home/dsabanin/Arduino/lcdtest1/lcdtest1.ino:1:0:
+/home/dsabanin/Apps/arduino-1.6.10/libraries/LiquidCrystal/src/LiquidCrystal.h:83:18: note: virtual size_t LiquidCrystal::write(uint8_t)
+   virtual size_t write(uint8_t);
+                  ^
+/home/dsabanin/Apps/arduino-1.6.10/libraries/LiquidCrystal/src/LiquidCrystal.h:83:18: note:   no known conversion for argument 1 from 'String' to 'uint8_t {aka unsigned char}'
+In file included from /home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Stream.h:26:0,
+                 from /home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/HardwareSerial.h:29,
+                 from /home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Arduino.h:224,
+                 from sketch/lcdtest1.ino.cpp:1:
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:54:12: note: size_t Print::write(const char*, size_t)
+     size_t write(const char *buffer, size_t size) {
+            ^
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:54:12: note:   candidate expects 2 arguments, 1 provided
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:53:20: note: virtual size_t Print::write(const uint8_t*, size_t)
+     virtual size_t write(const uint8_t *buffer, size_t size);
+                    ^
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:53:20: note:   candidate expects 2 arguments, 1 provided
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:49:12: note: size_t Print::write(const char*)
+     size_t write(const char *str) {
+            ^
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:49:12: note:   no known conversion for argument 1 from 'String' to 'const char*'
+exit status 1
+no matching function for call to 'LiquidCrystal::write(String&)'
+
+
+
+
+
+
+
+
+
+
+
+Sketch uses 4,460 bytes (13%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 236 bytes (11%) of dynamic memory, leaving 1,812 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 4,460 bytes (13%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 236 bytes (11%) of dynamic memory, leaving 1,812 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 4,446 bytes (13%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 242 bytes (11%) of dynamic memory, leaving 1,806 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 4,452 bytes (13%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 248 bytes (12%) of dynamic memory, leaving 1,800 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 4,446 bytes (13%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 242 bytes (11%) of dynamic memory, leaving 1,806 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 4,460 bytes (13%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 236 bytes (11%) of dynamic memory, leaving 1,812 bytes for local variables. Maximum is 2,048 bytes.
+/home/dsabanin/Arduino/lcdtest1/lcdtest1.ino: In function 'void loop()':
+lcdtest1:24: error: 'class String' has no member named 'pop_back'
+       lcd.write(r.pop_back().c_str());
+                   ^
+exit status 1
+'class String' has no member named 'pop_back'
+
+
+
+
+
+
+
+
+
+
+/home/dsabanin/Arduino/lcdtest1/lcdtest1.ino: In function 'void loop()':
+lcdtest1:24: error: 'class String' has no member named 'resize'
+       lcd.write(r.resize(r.size() - 1));
+                   ^
+lcdtest1:24: error: 'class String' has no member named 'size'
+       lcd.write(r.resize(r.size() - 1));
+                            ^
+exit status 1
+'class String' has no member named 'resize'
+
+
+
+
+
+
+
+
+
+
+/home/dsabanin/Arduino/lcdtest1/lcdtest1.ino: In function 'void loop()':
+lcdtest1:24: error: 'class String' has no member named 'resize'
+       lcd.write(r.resize(r.length() - 1));
+                   ^
+exit status 1
+'class String' has no member named 'resize'
+
+
+
+
+
+
+
+
+
+
+/home/dsabanin/Arduino/lcdtest1/lcdtest1.ino: In function 'void loop()':
+lcdtest1:24: error: 'class String' has no member named 'erase'
+       lcd.write(r.erase(r.end() - 1));
+                   ^
+exit status 1
+'class String' has no member named 'erase'
+
+
+
+
+
+
+
+
+
+
+
+Sketch uses 4,536 bytes (14%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 236 bytes (11%) of dynamic memory, leaving 1,812 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 4,536 bytes (14%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 236 bytes (11%) of dynamic memory, leaving 1,812 bytes for local variables. Maximum is 2,048 bytes.
+/home/dsabanin/Arduino/lcdtest1/lcdtest1.ino: In function 'void loop()':
+lcdtest1:25: error: expected ';' before ')' token
+       strncpy(substr, text+15, sizeof(text)-15));
+                                                ^
+lcdtest1:28: error: no matching function for call to 'LiquidCrystal::write()'
+       lcd.write();
+                 ^
+/home/dsabanin/Arduino/lcdtest1/lcdtest1.ino:28:17: note: candidates are:
+In file included from /home/dsabanin/Arduino/lcdtest1/lcdtest1.ino:1:0:
+/home/dsabanin/Apps/arduino-1.6.10/libraries/LiquidCrystal/src/LiquidCrystal.h:83:18: note: virtual size_t LiquidCrystal::write(uint8_t)
+   virtual size_t write(uint8_t);
+                  ^
+/home/dsabanin/Apps/arduino-1.6.10/libraries/LiquidCrystal/src/LiquidCrystal.h:83:18: note:   candidate expects 1 argument, 0 provided
+In file included from /home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Stream.h:26:0,
+                 from /home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/HardwareSerial.h:29,
+                 from /home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Arduino.h:224,
+                 from sketch/lcdtest1.ino.cpp:1:
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:54:12: note: size_t Print::write(const char*, size_t)
+     size_t write(const char *buffer, size_t size) {
+            ^
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:54:12: note:   candidate expects 2 arguments, 0 provided
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:53:20: note: virtual size_t Print::write(const uint8_t*, size_t)
+     virtual size_t write(const uint8_t *buffer, size_t size);
+                    ^
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:53:20: note:   candidate expects 2 arguments, 0 provided
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:49:12: note: size_t Print::write(const char*)
+     size_t write(const char *str) {
+            ^
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:49:12: note:   candidate expects 1 argument, 0 provided
+exit status 1
+expected ';' before ')' token
+/home/dsabanin/Arduino/lcdtest1/lcdtest1.ino: In function 'void loop()':
+lcdtest1:28: error: no matching function for call to 'LiquidCrystal::write()'
+       lcd.write();
+                 ^
+/home/dsabanin/Arduino/lcdtest1/lcdtest1.ino:28:17: note: candidates are:
+In file included from /home/dsabanin/Arduino/lcdtest1/lcdtest1.ino:1:0:
+/home/dsabanin/Apps/arduino-1.6.10/libraries/LiquidCrystal/src/LiquidCrystal.h:83:18: note: virtual size_t LiquidCrystal::write(uint8_t)
+   virtual size_t write(uint8_t);
+                  ^
+/home/dsabanin/Apps/arduino-1.6.10/libraries/LiquidCrystal/src/LiquidCrystal.h:83:18: note:   candidate expects 1 argument, 0 provided
+In file included from /home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Stream.h:26:0,
+                 from /home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/HardwareSerial.h:29,
+                 from /home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Arduino.h:224,
+                 from sketch/lcdtest1.ino.cpp:1:
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:54:12: note: size_t Print::write(const char*, size_t)
+     size_t write(const char *buffer, size_t size) {
+            ^
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:54:12: note:   candidate expects 2 arguments, 0 provided
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:53:20: note: virtual size_t Print::write(const uint8_t*, size_t)
+     virtual size_t write(const uint8_t *buffer, size_t size);
+                    ^
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:53:20: note:   candidate expects 2 arguments, 0 provided
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:49:12: note: size_t Print::write(const char*)
+     size_t write(const char *str) {
+            ^
+/home/dsabanin/.arduino15/packages/arduino/hardware/avr/1.6.13/cores/arduino/Print.h:49:12: note:   candidate expects 1 argument, 0 provided
+exit status 1
+no matching function for call to 'LiquidCrystal::write()'
+
+Sketch uses 4,548 bytes (14%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 236 bytes (11%) of dynamic memory, leaving 1,812 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 4,548 bytes (14%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 236 bytes (11%) of dynamic memory, leaving 1,812 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 4,548 bytes (14%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 236 bytes (11%) of dynamic memory, leaving 1,812 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 4,548 bytes (14%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 236 bytes (11%) of dynamic memory, leaving 1,812 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 4,548 bytes (14%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 236 bytes (11%) of dynamic memory, leaving 1,812 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 4,534 bytes (14%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 240 bytes (11%) of dynamic memory, leaving 1,808 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 4,704 bytes (14%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 244 bytes (11%) of dynamic memory, leaving 1,804 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 4,698 bytes (14%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 240 bytes (11%) of dynamic memory, leaving 1,808 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 4,714 bytes (14%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 240 bytes (11%) of dynamic memory, leaving 1,808 bytes for local variables. Maximum is 2,048 bytes.
+
+
+
+
+
+
+
+
+
+
+
+Sketch uses 4,836 bytes (14%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 240 bytes (11%) of dynamic memory, leaving 1,808 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 4,836 bytes (14%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 240 bytes (11%) of dynamic memory, leaving 1,808 bytes for local variables. Maximum is 2,048 bytes.
+
+
+
+
+
+
+
+
+
+
+
+Sketch uses 4,836 bytes (14%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 240 bytes (11%) of dynamic memory, leaving 1,808 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 4,836 bytes (14%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 240 bytes (11%) of dynamic memory, leaving 1,808 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 4,794 bytes (14%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 240 bytes (11%) of dynamic memory, leaving 1,808 bytes for local variables. Maximum is 2,048 bytes.
+/home/dsabanin/Arduino/lcdtest1/lcdtest1.ino: In function 'void loop()':
+lcdtest1:25: error: cannot convert 'char (*)[256]' to 'char*' for argument '1' to 'char* strncpy(char*, const char*, size_t)'
+       strncpy(&substr, text, 16);
+                                ^
+exit status 1
+cannot convert 'char (*)[256]' to 'char*' for argument '1' to 'char* strncpy(char*, const char*, size_t)'
+
+Sketch uses 4,794 bytes (14%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 240 bytes (11%) of dynamic memory, leaving 1,808 bytes for local variables. Maximum is 2,048 bytes.
+
+
+
+
+
+
+
+
+
+
+
+Sketch uses 4,796 bytes (14%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 240 bytes (11%) of dynamic memory, leaving 1,808 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 4,796 bytes (14%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 240 bytes (11%) of dynamic memory, leaving 1,808 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 4,824 bytes (14%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 236 bytes (11%) of dynamic memory, leaving 1,812 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 4,838 bytes (14%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 236 bytes (11%) of dynamic memory, leaving 1,812 bytes for local variables. Maximum is 2,048 bytes.
+
+Sketch uses 4,822 bytes (14%) of program storage space. Maximum is 32,256 bytes.
+Global variables use 236 bytes (11%) of dynamic memory, leaving 1,812 bytes for local variables. Maximum is 2,048 bytes.

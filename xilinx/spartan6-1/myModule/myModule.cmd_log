@@ -59,3 +59,152 @@ ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/dsabanin/projects/embedd
 map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o myModule_map.ncd myModule.ngd myModule.pcf 
 par -w -intstyle ise -ol high -mt off myModule_map.ncd myModule.ncd myModule.pcf 
 trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml myModule.twx myModule.ncd -o myModule.twr myModule.pcf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/dsabanin/projects/embedded/xilinx/mimasv2_user_constraints_file.ucf -p xc6slx9-csg324-2 myModule.ngc myModule.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o myModule_map.ncd myModule.ngd myModule.pcf 
+par -w -intstyle ise -ol high -mt off myModule_map.ncd myModule.ncd myModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml myModule.twx myModule.ncd -o myModule.twr myModule.pcf 
+bitgen -intstyle ise -f myModule.ut myModule.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/dsabanin/projects/embedded/xilinx/mimasv2_user_constraints_file.ucf -p xc6slx9-csg324-2 myModule.ngc myModule.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o myModule_map.ncd myModule.ngd myModule.pcf 
+par -w -intstyle ise -ol high -mt off myModule_map.ncd myModule.ncd myModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml myModule.twx myModule.ncd -o myModule.twr myModule.pcf 
+bitgen -intstyle ise -f myModule.ut myModule.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/dsabanin/projects/embedded/xilinx/mimasv2_user_constraints_file.ucf -p xc6slx9-csg324-2 myModule.ngc myModule.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o myModule_map.ncd myModule.ngd myModule.pcf 
+par -w -intstyle ise -ol high -mt off myModule_map.ncd myModule.ncd myModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml myModule.twx myModule.ncd -o myModule.twr myModule.pcf 
+bitgen -intstyle ise -f myModule.ut myModule.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/dsabanin/projects/embedded/xilinx/mimasv2_user_constraints_file.ucf -p xc6slx9-csg324-2 myModule.ngc myModule.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o myModule_map.ncd myModule.ngd myModule.pcf 
+par -w -intstyle ise -ol high -mt off myModule_map.ncd myModule.ncd myModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml myModule.twx myModule.ncd -o myModule.twr myModule.pcf 
+bitgen -intstyle ise -f myModule.ut myModule.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/dsabanin/projects/embedded/xilinx/mimasv2_user_constraints_file.ucf -p xc6slx9-csg324-2 myModule.ngc myModule.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o myModule_map.ncd myModule.ngd myModule.pcf 
+par -w -intstyle ise -ol high -mt off myModule_map.ncd myModule.ncd myModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml myModule.twx myModule.ncd -o myModule.twr myModule.pcf 
+bitgen -intstyle ise -f myModule.ut myModule.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/dsabanin/projects/embedded/xilinx/mimasv2_user_constraints_file.ucf -p xc6slx9-csg324-2 myModule.ngc myModule.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o myModule_map.ncd myModule.ngd myModule.pcf 
+par -w -intstyle ise -ol high -mt off myModule_map.ncd myModule.ncd myModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml myModule.twx myModule.ncd -o myModule.twr myModule.pcf 
+bitgen -intstyle ise -f myModule.ut myModule.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/dsabanin/projects/embedded/xilinx/mimasv2_user_constraints_file.ucf -p xc6slx9-csg324-2 myModule.ngc myModule.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o myModule_map.ncd myModule.ngd myModule.pcf 
+par -w -intstyle ise -ol high -mt off myModule_map.ncd myModule.ncd myModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml myModule.twx myModule.ncd -o myModule.twr myModule.pcf 
+bitgen -intstyle ise -f myModule.ut myModule.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/dsabanin/projects/embedded/xilinx/mimasv2_user_constraints_file.ucf -p xc6slx9-csg324-2 myModule.ngc myModule.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o myModule_map.ncd myModule.ngd myModule.pcf 
+par -w -intstyle ise -ol high -mt off myModule_map.ncd myModule.ncd myModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml myModule.twx myModule.ncd -o myModule.twr myModule.pcf 
+bitgen -intstyle ise -f myModule.ut myModule.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/dsabanin/projects/embedded/xilinx/mimasv2_user_constraints_file.ucf -p xc6slx9-csg324-2 myModule.ngc myModule.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o myModule_map.ncd myModule.ngd myModule.pcf 
+par -w -intstyle ise -ol high -mt off myModule_map.ncd myModule.ncd myModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml myModule.twx myModule.ncd -o myModule.twr myModule.pcf 
+bitgen -intstyle ise -f myModule.ut myModule.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/dsabanin/projects/embedded/xilinx/mimasv2_user_constraints_file.ucf -p xc6slx9-csg324-2 myModule.ngc myModule.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o myModule_map.ncd myModule.ngd myModule.pcf 
+par -w -intstyle ise -ol high -mt off myModule_map.ncd myModule.ncd myModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml myModule.twx myModule.ncd -o myModule.twr myModule.pcf 
+bitgen -intstyle ise -f myModule.ut myModule.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/dsabanin/projects/embedded/xilinx/mimasv2_user_constraints_file.ucf -p xc6slx9-csg324-2 myModule.ngc myModule.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o myModule_map.ncd myModule.ngd myModule.pcf 
+par -w -intstyle ise -ol high -mt off myModule_map.ncd myModule.ncd myModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml myModule.twx myModule.ncd -o myModule.twr myModule.pcf 
+bitgen -intstyle ise -f myModule.ut myModule.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/dsabanin/projects/embedded/xilinx/mimasv2_user_constraints_file.ucf -p xc6slx9-csg324-2 myModule.ngc myModule.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o myModule_map.ncd myModule.ngd myModule.pcf 
+par -w -intstyle ise -ol high -mt off myModule_map.ncd myModule.ncd myModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml myModule.twx myModule.ncd -o myModule.twr myModule.pcf 
+bitgen -intstyle ise -f myModule.ut myModule.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/dsabanin/projects/embedded/xilinx/mimasv2_user_constraints_file.ucf -p xc6slx9-csg324-2 myModule.ngc myModule.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o myModule_map.ncd myModule.ngd myModule.pcf 
+par -w -intstyle ise -ol high -mt off myModule_map.ncd myModule.ncd myModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml myModule.twx myModule.ncd -o myModule.twr myModule.pcf 
+bitgen -intstyle ise -f myModule.ut myModule.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/dsabanin/projects/embedded/xilinx/mimasv2_user_constraints_file.ucf -p xc6slx9-csg324-2 myModule.ngc myModule.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o myModule_map.ncd myModule.ngd myModule.pcf 
+par -w -intstyle ise -ol high -mt off myModule_map.ncd myModule.ncd myModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml myModule.twx myModule.ncd -o myModule.twr myModule.pcf 
+bitgen -intstyle ise -f myModule.ut myModule.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/dsabanin/projects/embedded/xilinx/mimasv2_user_constraints_file.ucf -p xc6slx9-csg324-2 myModule.ngc myModule.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o myModule_map.ncd myModule.ngd myModule.pcf 
+par -w -intstyle ise -ol high -mt off myModule_map.ncd myModule.ncd myModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml myModule.twx myModule.ncd -o myModule.twr myModule.pcf 
+bitgen -intstyle ise -f myModule.ut myModule.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/dsabanin/projects/embedded/xilinx/mimasv2_user_constraints_file.ucf -p xc6slx9-csg324-2 myModule.ngc myModule.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o myModule_map.ncd myModule.ngd myModule.pcf 
+par -w -intstyle ise -ol high -mt off myModule_map.ncd myModule.ncd myModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml myModule.twx myModule.ncd -o myModule.twr myModule.pcf 
+bitgen -intstyle ise -f myModule.ut myModule.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/dsabanin/projects/embedded/xilinx/mimasv2_user_constraints_file.ucf -p xc6slx9-csg324-2 myModule.ngc myModule.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o myModule_map.ncd myModule.ngd myModule.pcf 
+par -w -intstyle ise -ol high -mt off myModule_map.ncd myModule.ncd myModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml myModule.twx myModule.ncd -o myModule.twr myModule.pcf 
+bitgen -intstyle ise -f myModule.ut myModule.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/dsabanin/projects/embedded/xilinx/mimasv2_user_constraints_file.ucf -p xc6slx9-csg324-2 myModule.ngc myModule.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o myModule_map.ncd myModule.ngd myModule.pcf 
+par -w -intstyle ise -ol high -mt off myModule_map.ncd myModule.ncd myModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml myModule.twx myModule.ncd -o myModule.twr myModule.pcf 
+bitgen -intstyle ise -f myModule.ut myModule.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/dsabanin/projects/embedded/xilinx/mimasv2_user_constraints_file.ucf -p xc6slx9-csg324-2 myModule.ngc myModule.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o myModule_map.ncd myModule.ngd myModule.pcf 
+par -w -intstyle ise -ol high -mt off myModule_map.ncd myModule.ncd myModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml myModule.twx myModule.ncd -o myModule.twr myModule.pcf 
+bitgen -intstyle ise -f myModule.ut myModule.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/dsabanin/projects/embedded/xilinx/mimasv2_user_constraints_file.ucf -p xc6slx9-csg324-2 myModule.ngc myModule.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o myModule_map.ncd myModule.ngd myModule.pcf 
+par -w -intstyle ise -ol high -mt off myModule_map.ncd myModule.ncd myModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml myModule.twx myModule.ncd -o myModule.twr myModule.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/dsabanin/projects/embedded/xilinx/mimasv2_user_constraints_file.ucf -p xc6slx9-csg324-2 myModule.ngc myModule.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o myModule_map.ncd myModule.ngd myModule.pcf 
+par -w -intstyle ise -ol high -mt off myModule_map.ncd myModule.ncd myModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml myModule.twx myModule.ncd -o myModule.twr myModule.pcf 
+bitgen -intstyle ise -f myModule.ut myModule.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/dsabanin/projects/embedded/xilinx/mimasv2_user_constraints_file.ucf -p xc6slx9-csg324-2 myModule.ngc myModule.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o myModule_map.ncd myModule.ngd myModule.pcf 
+par -w -intstyle ise -ol high -mt off myModule_map.ncd myModule.ncd myModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml myModule.twx myModule.ncd -o myModule.twr myModule.pcf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/spartan6-1/myModule/myModule.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/dsabanin/projects/embedded/xilinx/mimasv2_user_constraints_file.ucf -p xc6slx9-csg324-2 myModule.ngc myModule.ngd  
+map -intstyle ise -p xc6slx9-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o myModule_map.ncd myModule.ngd myModule.pcf 
+par -w -intstyle ise -ol high -mt off myModule_map.ncd myModule.ncd myModule.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml myModule.twx myModule.ncd -o myModule.twr myModule.pcf 
+bitgen -intstyle ise -f myModule.ut myModule.ncd 

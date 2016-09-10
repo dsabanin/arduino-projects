@@ -18,17 +18,25 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module myModule(LED);
+module myModule(MYSWITCH, CLK_12MHz, LED);
 
-   reg [7:0] val = 8'h00;
+   input MYSWITCH;
+   input CLK_12MHz;
+   wire CLK_20Hz; 
+   myClock myclkmod(CLK_12MHz, CLK_20Hz);
    output wire [7:0] LED;
-   always begin
-      if (val == 8'b1111111)
-         val <= 8'b0000000;
-      else
-         val <= 8'b11111111;
-   end 
+   reg [7:0] LED_STATE = 8'b00000001;
    
-   assign LED = val;
+   always @ (posedge CLK_20Hz) begin
+      if(!MYSWITCH)
+         LED_STATE = 8'b11111111;
+      else begin
+         LED_STATE = LED_STATE << 1;
+         if (LED_STATE == 8'b00000000) 
+            LED_STATE = 8'b00000001;
+      end
+   end
+   
+   assign LED = LED_STATE;
 
 endmodule

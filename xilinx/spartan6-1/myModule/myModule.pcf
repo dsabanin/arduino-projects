@@ -1,9 +1,11 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Wed Sep 07 21:52:46 2016
+// Written by: Map P.20131013 on Thu Sep 08 22:33:54 2016
 //! **************************************************************************
 
 SCHEMATIC START;
 CONFIG VCCAUX = "3.3";
+COMP "CLK_12MHz" LOCATE = SITE "D9" LEVEL 1;
+COMP "MYSWITCH" LOCATE = SITE "L18" LEVEL 1;
 COMP "LED<0>" LOCATE = SITE "T18" LEVEL 1;
 COMP "LED<1>" LOCATE = SITE "T17" LEVEL 1;
 COMP "LED<2>" LOCATE = SITE "U18" LEVEL 1;
@@ -12,5 +14,6 @@ COMP "LED<4>" LOCATE = SITE "N16" LEVEL 1;
 COMP "LED<5>" LOCATE = SITE "N15" LEVEL 1;
 COMP "LED<6>" LOCATE = SITE "P16" LEVEL 1;
 COMP "LED<7>" LOCATE = SITE "P15" LEVEL 1;
+NET "CLK_12MHz_BUFGP/IBUFG" PERIOD = 83.3333333 ns HIGH 50%;
 SCHEMATIC END;
 

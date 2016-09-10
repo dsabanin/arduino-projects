@@ -15,6 +15,11 @@ Annotating constraints to design from ucf file
 "/home/dsabanin/projects/embedded/xilinx/mimasv2_user_constraints_file.ucf" ...
 Resolving constraint associations...
 Checking Constraint Associations...
+INFO:ConstraintSystem - The Period constraint <PERIOD = 12MHz ;>
+   [/home/dsabanin/projects/embedded/xilinx/mimasv2_user_constraints_file.ucf(16
+   )], is specified using the Net Period method which is not recommended. Please
+   use the Timespec PERIOD method.
+
 Done...
 
 Checking expanded design ...
@@ -30,7 +35,7 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 407028 kilobytes
+Total memory usage is 407256 kilobytes
 
 Writing NGD file "myModule.ngd" ...
 Total REAL time to NGDBUILD completion:  1 sec
