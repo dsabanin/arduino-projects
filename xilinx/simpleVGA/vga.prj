@@ -1,0 +1,2 @@
+verilog work "ipcore_dir/vga_clk_wiz.v"
+verilog work "vga.v"

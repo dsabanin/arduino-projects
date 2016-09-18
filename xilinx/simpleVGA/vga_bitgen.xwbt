@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.ncd
+OUTFILE=/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.bit
+FAMILY=Spartan6
+PART=xc6slx9-3csg324
+WORKINGDIR=/home/dsabanin/projects/embedded/xilinx/simpleVGA
+LICENSE=WebPack
+USER_INFO=211234267_0_0_814

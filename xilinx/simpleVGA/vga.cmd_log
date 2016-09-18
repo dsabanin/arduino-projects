@@ -1,0 +1,218 @@
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc mimas_v2.ucf -uc clk_wiz_v3_6.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 vga.ngc vga.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o vga_map.ncd vga.ngd vga.pcf 
+par -w -intstyle ise -ol high -mt off vga_map.ncd vga.ncd vga.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml vga.twx vga.ncd -o vga.twr vga.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f vga.ut vga.ncd 
