@@ -1,0 +1,229 @@
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f game.ut game.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f game.ut game.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f game.ut game.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f game.ut game.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f game.ut game.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f game.ut game.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f game.ut game.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f game.ut game.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f game.ut game.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f game.ut game.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f game.ut game.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f game.ut game.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f game.ut game.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f game.ut game.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f game.ut game.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f game.ut game.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f game.ut game.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f game.ut game.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f game.ut game.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f game.ut game.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f game.ut game.ncd 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+xst -intstyle ise -ifn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.xst" -ofn "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc mimas_v2.ucf -p xc6slx9-csg324-3 game.ngc game.ngd  
+map -intstyle ise -p xc6slx9-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o game_map.ncd game.ngd game.pcf 
+par -w -intstyle ise -ol high -mt off game_map.ncd game.ncd game.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml game.twx game.ncd -o game.twr game.pcf -ucf mimas_v2.ucf 
+bitgen -intstyle ise -f game.ut game.ncd 

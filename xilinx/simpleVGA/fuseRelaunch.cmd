@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga_tb_isim_beh.exe" -prj "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga_tb_beh.prj" "work.vga_tb" "work.glbl" 
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game_tb_isim_beh.exe" -prj "/home/dsabanin/projects/embedded/xilinx/simpleVGA/game_tb_beh.prj" "work.game_tb" "work.glbl" 

@@ -45,7 +45,6 @@ module vga_tb;
 	);
 
 	initial begin
-      $display($time, "<< LEt's go >>");
 		// Initialize Inputs
 		CLK_100MHz = 0;
 

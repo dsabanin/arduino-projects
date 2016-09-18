@@ -22,18 +22,15 @@
 #define alloca _alloca
 #endif
 static const char *ng0 = "/home/dsabanin/projects/embedded/xilinx/simpleVGA/vga_tb.v";
-static const char *ng1 = "";
-static const char *ng2 = "<< LEt's go >>";
-static int ng3[] = {0, 0};
+static int ng1[] = {0, 0};
 
 
 
 static void Initial_47_0(char *t0)
 {
-    char t3[16];
     char *t1;
     char *t2;
-    char *t4;
+    char *t3;
 
 LAB0:    t1 = (t0 + 3000U);
     t2 = *((char **)t1);
@@ -44,15 +41,11 @@ LAB3:    goto *t2;
 
 LAB2:    xsi_set_current_line(47, ng0);
 
-LAB4:    xsi_set_current_line(48, ng0);
-    t2 = xsi_vlog_time(t3, 1000.0000000000000, 1000.0000000000000);
-    xsi_vlogfile_write(0, 0, 0, ng1, 2, t0, (char)118, t3, 64);
-    xsi_vlogfile_write(1, 0, 0, ng2, 1, t0);
-    xsi_set_current_line(50, ng0);
-    t2 = ((char*)((ng3)));
-    t4 = (t0 + 2088);
-    xsi_vlogvar_assign_value(t4, t2, 0, 0, 1);
-    xsi_set_current_line(53, ng0);
+LAB4:    xsi_set_current_line(49, ng0);
+    t2 = ((char*)((ng1)));
+    t3 = (t0 + 2088);
+    xsi_vlogvar_assign_value(t3, t2, 0, 0, 1);
+    xsi_set_current_line(52, ng0);
     t2 = (t0 + 2808);
     xsi_process_wait(t2, 100000LL);
     *((char **)t1) = &&LAB5;
@@ -62,7 +55,7 @@ LAB5:    goto LAB1;
 
 }
 
-static void Always_59_1(char *t0)
+static void Always_58_1(char *t0)
 {
     char t3[8];
     char *t1;
@@ -96,13 +89,13 @@ LAB0:    t1 = (t0 + 3248U);
 
 LAB3:    goto *t2;
 
-LAB2:    xsi_set_current_line(60, ng0);
+LAB2:    xsi_set_current_line(59, ng0);
     t2 = (t0 + 3056);
     xsi_process_wait(t2, 5000LL);
     *((char **)t1) = &&LAB4;
 
 LAB1:    return;
-LAB4:    xsi_set_current_line(60, ng0);
+LAB4:    xsi_set_current_line(59, ng0);
     t4 = (t0 + 2088);
     t5 = (t4 + 56U);
     t6 = *((char **)t5);
@@ -156,7 +149,7 @@ LAB10:    t18 = *((unsigned int *)t3);
 
 extern void work_m_13848511749955961629_0749069297_init()
 {
-	static char *pe[] = {(void *)Initial_47_0,(void *)Always_59_1};
+	static char *pe[] = {(void *)Initial_47_0,(void *)Always_58_1};
 	xsi_register_didat("work_m_13848511749955961629_0749069297", "isim/vga_tb_isim_beh.exe.sim/work/m_13848511749955961629_0749069297.didat");
 	xsi_register_executes(pe);
 }

@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2016-09-17T21:35:50</DateModified>
+  <DateModified>2016-09-18T11:25:17</DateModified>
   <ModuleName>vga</ModuleName>
-  <SummaryTimeStamp>2016-09-17T15:20:28</SummaryTimeStamp>
+  <SummaryTimeStamp>2016-09-18T11:25:12</SummaryTimeStamp>
   <SavedFilePath>/home/dsabanin/projects/embedded/xilinx/simpleVGA/iseconfig/vga.xreport</SavedFilePath>
   <ImplementationReportsDirectory>/home/dsabanin/projects/embedded/xilinx/simpleVGA/</ImplementationReportsDirectory>
   <DateInitialized>2016-09-17T15:12:00</DateInitialized>
